@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.center{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f5f5f5;
+   /* position: absolute;*/
+    height: 550px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0.8rem;
+}
+
+.card > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.form-item{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    height: 30px;
+    width: 16rem;
+    border: 1px solid grey;
+}
+
+.form-submit{
+    font-family: 'Raleway', sans-serif;
+
+    height: 35px;
+    color: #fff;
+    background-color: #b4bcbc;
+    border: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s opacity ease;
+    cursor: pointer;
+}
+.form-submit:hover{
+    opacity: 0.6;
+}
+
+.form-submit1{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background: #30A8E6; /*добавляем фон к пункту меню*/
+    color: #fff; /*меняем цвет ссылок*/
+    padding: 10px; /*добавляем отступ*/
+    border-radius: 4px; /*добавляем скругление*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+    margin-top: 20px;
+}
+.form-submit1:hover{
+    background: #1C85BB;
+}
+.button {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    color: #fff;
+    margin-left: 235px;
+    background-color: #b4bcbc;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s opacity ease;
+    cursor: pointer;
+    padding: 15px 10px 15px 10px;
+}
+.button:hover{
+    opacity: 0.6;
+}

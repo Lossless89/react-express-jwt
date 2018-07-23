@@ -1,0 +1,10 @@
+.home div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    margin: 10px;
+}
+

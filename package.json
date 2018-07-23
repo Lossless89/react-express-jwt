@@ -1,0 +1,49 @@
+{
+  "name": "jwtauth",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start-react": "react-scripts start",
+    "start-app": "node ./app.js",
+    "start": "react-scripts start && npm run-script start-app",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^7.3.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.0",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "immutable": "^3.8.2",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-dom": "^16.4.1",
+    "react-notifications": "^1.4.3",
+    "react-redux": "^5.0.7",
+    "react-redux-router": "^0.0.14",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "todomvc-app-css": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  }
+}
